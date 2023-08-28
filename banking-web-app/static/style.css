@@ -1,14 +1,20 @@
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-weight: 36px;
+    font-size: xx-large;
 }
 
 /* Body and global styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #985959;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -18,6 +24,7 @@ header {
     text-align: center;
     padding: 30px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 /* Navigation */
@@ -26,6 +33,7 @@ nav {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 nav a {
@@ -42,17 +50,20 @@ nav a:hover {
 
 /* Container */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Forms */
 form {
     margin-top: 20px;
+    width: 100%;
 }
 
 label {
@@ -63,7 +74,7 @@ label {
 }
 
 input[type="text"], input[type="number"] {
-    width: 10%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -92,4 +103,7 @@ footer {
     color: #fff;
     border-top: 1px solid #ccc;
     border-radius: 0 0 10px 10px;
+    width: 100%;
 }
+
+
